@@ -36,6 +36,7 @@
     ]
   },
   "devDependencies": {
+    "@svgr/parcel-plugin-svgr": "^5.5.0",
     "tailwindcss": "^3.0.24"
   }
 }
