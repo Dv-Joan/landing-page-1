@@ -1,5 +1,5 @@
 import Card from './Components/Card';
-import Banner from './Components/Images/banner_image.png';
+import Banner from './Components/Images/growing-up.svg';
 import Logo from './Components/Images/logo.png';
 
 function App() {
@@ -27,7 +27,7 @@ function App() {
               Increase Sales in the first week
             </div>
             <div className='pt-16'>
-              <button className='  ease-out duration-300 rounded-full text-xl text-white tracking-wide font-black drop-shadow-md bg-gradient-to-r from-slate-700 to-purple-700 px-12 py-2  hover:scale-110  '>
+              <button className='ease-out duration-300 rounded-full text-xl text-white tracking-wide font-black drop-shadow-md bg-gradient-to-r from-slate-700 to-purple-700 px-12 py-2  hover:scale-110  '>
                 Improve
               </button>
             </div>
@@ -37,7 +37,7 @@ function App() {
           </div>
         </div>
         <div className=''>
-          <div className='absolute bottom-0  rounded-3xl '>
+          <div className='rounded-3xl'>
             <Card />
           </div>
         </div>
