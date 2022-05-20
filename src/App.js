@@ -4,8 +4,8 @@ import Logo from './Components/Images/logo.png';
 
 function App() {
   return (
-    <div className='bg-gradient-to-r from-rose-300 to-violet-700 flex justify-center'>
-      <div className='bg-gradient-to-t from-purple-500 to-rose-300 w-3/4 rounded-3xl  border-4 border-solid my-16 px-14 py-7 border-blue-900 '>
+    <div className='bg-gradient-to-r from-rose-300 to-violet-800 flex justify-center'>
+      <div className='static bg-gradient-to-l from-blue-500 to-purple-500 w-3/4 rounded-3xl  border-4 border-solid my-16 px-14 py-7 border-blue-900 '>
         <div className='flex-grid columns-2'>
           <div id='Logo' className='mb-7 flex pb-10'>
             <img src={Logo} className='mt-2 h-12 w-12 mr-2' />
@@ -37,7 +37,7 @@ function App() {
           </div>
         </div>
         <div className=''>
-          <div className=' absolute rounded-3xl  '>
+          <div className='absolute bottom-0  rounded-3xl '>
             <Card />
           </div>
         </div>
