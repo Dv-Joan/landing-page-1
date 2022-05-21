@@ -8,11 +8,11 @@ function App() {
       <div className='static bg-gradient-to-l from-blue-500 to-purple-500 w-3/4 rounded-3xl  border-4 border-solid my-16 px-14 py-7 border-blue-900 '>
         <div className='flex-grid columns-2'>
           <div id='Logo' className='mb-7 flex pb-10'>
-            <img src={Logo} className='mt-2 h-12 w-12 mr-2' />
+            <img src={Logo} alt='logo' className='mt-2 h-12 w-12 mr-2' />
             <div className='text-white   items-center'>
               <span className='font-black text-2xl'>STT</span>
               <br></br>
-              <span className='tracking-wide'>group</span>
+              <span className='tracking-wide font-Montserrat'>group</span>
             </div>
           </div>
           <div>
@@ -23,7 +23,7 @@ function App() {
             <span className='text-white text-6xl font-black tracking-normal '>
               your bussiness
             </span>
-            <div className='text-white text-xl tracking-normal pt-4 '>
+            <div className='text-white text-xl tracking-normal pt-4 font-Montserrat'>
               Increase Sales in the first week
             </div>
             <div className='pt-16'>
@@ -33,7 +33,7 @@ function App() {
             </div>
           </div>
           <div className=''>
-            <img src={Banner} className='drop-shadow-2xl' />
+            <img src={Banner} alt='banner' className='drop-shadow-2xl' />
           </div>
         </div>
         <div className=''>
