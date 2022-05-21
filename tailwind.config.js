@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
       fontsFamily: {
-        Roboto: ['Roboto', 'sans-serif'],
+        Montserrat: ['Montserrat'],
       },
     },
   },

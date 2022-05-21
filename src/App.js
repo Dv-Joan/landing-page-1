@@ -37,7 +37,7 @@ function App() {
           </div>
         </div>
         <div className=''>
-          <div className='rounded-3xl'>
+          <div className=' rounded-3xl'>
             <Card />
           </div>
         </div>
