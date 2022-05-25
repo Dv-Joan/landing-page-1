@@ -1,5 +1,7 @@
 import React from 'react';
-import Card from './Components/Card';
+import DataCard from './Components/DataCard';
+import ReportCard from './Components/ReportCard';
+import RapidCard from './Components/RapidCard';
 import Banner from './Components/Images/growing-up.svg';
 import Logo from './Components/Images/logo.png';
 import {
@@ -31,7 +33,6 @@ function App() {
                 <span className='tracking-wide font-Montserrat'>group</span>
               </div>
             </div>
-
             <div>
               <span className='text-yellow-400 text-6xl font-black tracking-normal'>
                 Improve
@@ -41,7 +42,7 @@ function App() {
                 your bussiness
               </span>
               <div className='text-white text-xl tracking-normal pt-4 font-Montserrat'>
-                Increase Sales in the first week
+                Increase your Sales in the first week
               </div>
               <div className='pt-16'>
                 <Link to='/improve'>
@@ -54,9 +55,14 @@ function App() {
             <img src={Banner} alt='banner' className='drop-shadow-2xl' />
           </div>
         </div>
-        <div>
-          <Card />
+        <div className='flex justify-center gap-14'>
+          <RapidCard />
+          <ReportCard />
+          <DataCard />
         </div>
+        <Switch>
+          <Route path='/improve' element={<Rapid />} />
+        </Switch>
       </div>
     </Router>
   );
